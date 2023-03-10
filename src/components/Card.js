@@ -1,5 +1,5 @@
 import cardImg from "../img/card_img.png";
-import { AiFillStar } from "react-icons/ai";
+import starImg from "../img/Star.png";
 
 export default function Card() {
   return (
@@ -8,10 +8,14 @@ export default function Card() {
       <img src={cardImg} alt="Card" />
 
       <div className="information">
+        
+        <div className="information__text">
+          <img src={starImg} alt="start img" className="star" />
 
-        <p> 
-          <AiFillStar className="icon" /> 5.0 <span>(6).USA</span> 
-        </p>
+          <span>5.0</span>
+          <span className="gray">(6) .</span>
+          <span className="gray">USA</span>
+        </div>
 
         <p>Life lessons with Katie Zaferes</p>
 

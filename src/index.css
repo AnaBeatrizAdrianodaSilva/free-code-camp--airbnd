@@ -73,16 +73,28 @@ section {
   left: 15px;
 }
 
-.information p {
+.information p, span {
   font-weight: 300;
   font-size: 12px;
   color: #222222;
 }
 
-.icon {
-  color: #FE395C;
+.information p {
+  margin-bottom: 8px;
 }
 
-.information p:first-child span {
+.information__text {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 8px;
+}
+
+.gray {
   color: #918E9B;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
 }
