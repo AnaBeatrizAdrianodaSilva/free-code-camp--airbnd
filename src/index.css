@@ -7,3 +7,44 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+/* NavBar Section */
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav__logo {
+  max-width: 100px;
+}
+
+/* Hero Section */
+
+section {
+  margin-inline: 36px;
+}
+
+.hero {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero__text h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hero__text p {
+  font-weight: 300;
+  width: 320px;
+}
